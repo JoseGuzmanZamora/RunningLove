@@ -170,10 +170,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: 0, y: 0.75, z: -1.7}
-  m_XDamping: 1
-  m_YDamping: 1
-  m_ZDamping: 1
+  m_FollowOffset: {x: 0, y: 0.3, z: -1.5}
+  m_XDamping: 0.5
+  m_YDamping: 0.5
+  m_ZDamping: 0.5
   m_AngularDampingMode: 0
   m_PitchDamping: 0
   m_YawDamping: 0
@@ -529,8 +529,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.20625493, y: 7.122845e-24, z: 4.440892e-16, w: 0.9784983}
-  m_LocalPosition: {x: 0, y: 0.949, z: -1.7}
+  m_LocalRotation: {x: 0.098537624, y: -9.123333e-10, z: 9.033904e-11, w: 0.99513334}
+  m_LocalPosition: {x: 0, y: 0.499, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -633,8 +633,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087102039}
-  m_LocalRotation: {x: 0.20625493, y: 7.122845e-24, z: 4.440892e-16, w: 0.9784983}
-  m_LocalPosition: {x: 0, y: 0.949, z: -1.7}
+  m_LocalRotation: {x: 0.098537624, y: -9.123333e-10, z: 9.033904e-11, w: 0.99513334}
+  m_LocalPosition: {x: 0, y: 0.499, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -697,6 +697,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1292267895}
     m_Modifications:
+    - target: {fileID: 1596542410362204381, guid: 68773153116bf47339087eebf83096e5, type: 3}
+      propertyPath: buildingPrefab
+      value: 
+      objectReference: {fileID: 1570848311432737551, guid: 723ed9c7d5fe54c848be84465342ea36, type: 3}
     - target: {fileID: 2850493404139833476, guid: 68773153116bf47339087eebf83096e5, type: 3}
       propertyPath: m_Name
       value: Street1
