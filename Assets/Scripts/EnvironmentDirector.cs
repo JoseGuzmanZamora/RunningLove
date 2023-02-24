@@ -23,9 +23,9 @@ public class EnvironmentDirector : MonoBehaviour
         {
             // We need to spawn new street once we reach the limit
             Vector3 streetRelative = activeStreet.transform.InverseTransformPoint(character.transform.position);
-            if (streetRelative.z >= 30)
+            if (streetRelative.z >= 20)
             {
-                var newStreetPosition = new Vector3(activeStreet.transform.position.x, activeStreet.transform.position.y, activeStreet.transform.position.z + 60);
+                var newStreetPosition = new Vector3(activeStreet.transform.position.x, activeStreet.transform.position.y, activeStreet.transform.position.z + 140);
                 var newStreet = Instantiate(streetPrefab, newStreetPosition, Quaternion.identity);
                 newStreet.transform.SetParent(activeStreet.transform.parent);
                 activeStreets.Add(newStreet);

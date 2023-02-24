@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1570848311432737546}
   - component: {fileID: 1570848311432737549}
   - component: {fileID: 1570848311432737548}
+  - component: {fileID: 7883527955648898831}
   m_Layer: 0
   m_Name: Building
   m_TagString: Untagged
@@ -97,3 +98,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7883527955648898831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570848311432737551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f626a241ecc66402f98229c5fbb18e72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AvailableMaterials:
+  - {fileID: 2100000, guid: 16204595139e74da68b06fa6ac330639, type: 2}
+  - {fileID: 2100000, guid: 95b243262bce346b8be0cafbccdda4f5, type: 2}
+  - {fileID: 2100000, guid: 34ccd991b5e274807a76db5358df99c3, type: 2}
+  - {fileID: 2100000, guid: faa5e189715574ae9b147fdd569ed5b6, type: 2}
+  - {fileID: 2100000, guid: c78a5097a2ecc45bc8ce442c474c5578, type: 2}
+  - {fileID: 2100000, guid: 6fa4d1adf658846f1a4e694c3397447a, type: 2}
+  - {fileID: 2100000, guid: 4266d361edf4b481c842afd162644934, type: 2}
+  - {fileID: 2100000, guid: 73e15a2c3fd514c21945fb19b468a52f, type: 2}

@@ -6,7 +6,7 @@ public class CityGenerator : MonoBehaviour
 {
     public GameObject buildingPrefab;
     private Vector2 sideWalkSize;
-    private Vector2 buildingGrid = new Vector2(3, 4);
+    private Vector2 buildingGrid = new Vector2(3, 8);
     private float buildingSizeFactor = 0.8f;
     private MeshRenderer mRenderer;
 
